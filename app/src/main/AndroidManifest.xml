@@ -26,6 +26,9 @@
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
+        <service android:name=".MyService"/>
+        <service android:name=".ForegroundService"/>
+        <service android:name=".MyBackGroundService"/>
     </application>
 
 </manifest>
